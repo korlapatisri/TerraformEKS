@@ -1,0 +1,7 @@
+vpc_cidr_block = "10.0.0.0/16"
+subnet_cidr_block = "10.0.10.0/24"
+env_prefix = "sandbox"
+avail_zone = "us-west-2a"
+sandbox_ev-eks = "sandbox_ev-eks"
+local_ip = ""
+cluster_name = "sandbox-ev-eks"
