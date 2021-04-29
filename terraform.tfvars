@@ -1,5 +1,4 @@
-Access_key = "AKIASAQHOYXB6IFPJ6WE"
-Secret_key = "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"
+
 vpc_cidr_block = "10.0.0.0/16"
 subnet_cidr_block = "10.0.10.0/24"
 env_prefix = "sandbox"
