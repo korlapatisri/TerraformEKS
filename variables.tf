@@ -7,7 +7,7 @@ variable "access_key" {
 }
 
 variable "secret_key" {
-  default = "/h8B/1X3MF"
+  default = ""
 }
 
 variable "cluster-name" {
