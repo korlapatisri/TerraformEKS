@@ -1,5 +1,5 @@
 #!/bin/bash
-terrafrom refresh 
+terraform refresh
 terraform init
 while [[ "$#" -gt 0 ]]; do
     case $1 in

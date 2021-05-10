@@ -8,6 +8,9 @@ provider "aws" {
   secret_key = var.secret_key
 
 }
+variable "vpc_id" {}
+data "aws_default_vpc" "vpc_id" {}
+
 
 data "aws_availability_zones" "available" {}
 provider "http" {}
