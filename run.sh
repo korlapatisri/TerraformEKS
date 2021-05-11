@@ -10,3 +10,4 @@ while [[ "$#" -gt 0 ]]; do
 done
 terraform plan -var-file ./env/variable-$target.tfvars
 terraform apply -var-file ./env/variable-$target.tfvars
+#haha
