@@ -5,6 +5,7 @@
 #  * EKS Cluster
 #
 
+
 resource "aws_iam_role" "demo-cluster" {
   name = "terraform-eks-demo-cluster"
 
@@ -79,5 +80,6 @@ resource "aws_eks_cluster" "demo" {
 resource "aws_cloudwatch_log_group" "demo" {
   name              = "/aws/eks/${var.cluster-name}/cluster"
   retention_in_days = 7
-
 }
+
+
